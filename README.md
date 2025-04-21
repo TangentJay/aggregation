@@ -1,4 +1,4 @@
-# aggregation
+# Aggregation
 # AutoContent Hub 
 
 A personal learning + portfolio project by **TangentJay**.  
