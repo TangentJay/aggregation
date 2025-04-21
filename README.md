@@ -38,6 +38,7 @@ In early development – learning by doing.
 ### 🎮 Creator
 **TangentJay**  
 📺 [Twitch]  https://your-twitch-link]https://www.twitch.tv/oosode
+
 📹 [YouTube] https://www.youtube.com/channel/UCKPPl5E0J-dtLExf1W1D0Og
 
 ---
