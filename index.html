@@ -1,46 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <meta charset="UTF-8"   />
- <meta name="viewport" content="width=device-width, initial-scale=1.0" />
- <title> Aggregation Inc | TangentJay</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TangentFlow - Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: rgba(59, 54, 51, 0.96);
+      display: flex;
+      height: 100vh;
+    }
+    aside {
+      width: 150px;
+      background-color: #364532;
+      color: #be62c9;
+      padding: 15px;
+    }
+    aside h2 {
+      font-size: 1.5em;
+      color: #dd2781;
+    }
+    aside ul {
+      list-style: none;
+      padding: 0;
+    }
+    aside ul li {
+      margin: 10px 0;
+    }
+    aside ul li a {
+      color: #28a294;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    main {
+      flex: 1;
+      padding: 20px;
+      background-color: rgba(199, 200, 0, 0.8);
+      overflow-y: auto;
+      display: flex;
+      justify-content: space-between;
+    }
+    .content {
+      width: 70%;
+    }
+    .tile {
+      background: #77c361;
+      margin-bottom: 20px;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .tile h3 {
+      margin-top: 0;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      border-radius: 6px;
+    }
+    img {
+      width: 100%;
+      max-width: 200px; /* Resize meme image */
+      height: auto;
+      border-radius: 6px;
+    }
+    .sidebar {
+      width: 25%;
+      background: #538157;
+      padding: 20px;
+    }
+    footer {
+      text-align: center;
+      background-color: #333;
+      color: white;
+      padding: 10px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      font-size: 14px;
+    }
+  </style>
 </head>
-
 <body>
-    <header>
-    <h1> <span style="color:#3cb371" > AGGREGATION! TBA..MORE TO CoME...</span>
-    </h1>
-    <p><span style="color: chocolate; font-weight: bold;">WE DO IT LIVE!</span> <span style="color: darkmagenta">WE DO THIS LIVE!</span>  </p>
- </header>
- <section>
-     <h2>  <span style="color:#33f373" > Links</span></h2>    
+
+  <!-- Sidebar -->
+  <aside>
+    <h2><span style="color: darkseagreen; font-family: fantasy; font-size: 14px;">TangentNull</span></h2>
+    <ul>
+      <li><a href="#welcome">🏠 Welcome</a></li>
+      <li><a href="#tech-news">📰 Tech News</a></li>
+      <li><a href="#game-guides">🎮 Game Guides</a></li>
+      <li><a href="#youtube">📺 YouTube</a></li>
+      <li><a href="#about-me">👤 About Me</a></li>
+      <li><a href="#projects">💻 Projects</a></li>
+    </ul>
+  </aside>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Content Area -->
+    <div class="content">
+      <!-- Welcome Page Section -->
+      <div class="tile" id="welcome">
+        <h3>Welcome to TangentFlow</h3>
+        <p>This is a demo site where you can find curated content from tech news, game guides, and featured YouTube videos. Explore my projects, get to know me, and stay updated!</p>
+        <p> <span style="color: chartreuse">   4/22/2025</span> </p>
+     </div>
      
-     <ul>
-         <li> <a href="https://www.youtube.com/channel/UCKPPl5E0J-dtLExf1W1D0Og">YouTube</a></li>     
-        <li> <a href= "https://www.twitch.tv/oosode">Twitch</a></li>
-         <li> <a href="https://www.khanacademy.org/math/early-math"> Khanacademy Early Maths</a>  </li>
+
      
-     </ul>
-    
-    
-    
-    
-</section>
 
+      <!-- Game Guides Section -->
+      <div class="tile" id="game-guides">
+        <h3>🎮 Game Guides</h3>
+        <p>Explore detailed game guides and walkthroughs for your favorite games!</p>
+        <p><a href="https://gamefaqs.gamespot.com/" target="_blank">Visit GameFAQs for the full list of guides</a></p>
+      </div>
 
-    
+      <!-- YouTube Picks Section -->
+      <div class="tile" id="youtube">
+        <h3>📺 Featured YouTube Video</h3>
+        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+        <p><a href="https://www.youtube.com/channel/UCKPPl5E0J-dtLExf1W1D0Og" target="_blank">idk yet</a></p>
+      </div>
 
-<section>
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
-<p>This is another paragraph.</p>
+      <!-- About Me Section -->
+      <div class="tile" id="about-me">
+        <h3>👤 About Me</h3>
+        <p>Here's a little about me: I am TangentJay, a tech enthusiast exploring full-stack development, learning cybersecurity, STEM subjects and sharing my knowledge with the world. Stay tuned for more content!</p>
+      </div>
 
- <h2>Trending Memes</h2>
-  <p>Here are some fun memes from today.</p>
-</section>
+      <!-- Projects Section -->
+      <div class="tile" id="projects">
+        <h3>💻 My Projects</h3>
+        <p>This is where I will showcase my beginner projects in Python, SQL, Cybersecurity, and other areas as I learn and grow!</p>
+      </div>
+    </div>
 
+    <!-- Sidebar with Meme of the Day and YouTube -->
+    <div class="sidebar">
+      <!-- Meme Section -->
+      <div class="tile" id="memes">
+        <h3>😹 Meme of the Day</h3>
+        <img src="https://i.imgur.com/w3duR07.png" alt="Meme of the Day">
+        <p><a href="https://www.reddit.com/r/memes/" target="_blank">Visit Reddit Memes for more</a></p>
+      </div>
 
-
+      <!-- YouTube Sidebar Section -->
+      <div class="tile" id="youtube-sidebar">
+        <h3>📺 YouTube Guides</h3>
+        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+        <p><a href="https://www.youtube.com/channel/UCKPPl5E0J-dtLExf1W1D0Og" target="_blank">Visit my YouTube Channel</a></p>
+      </div>
+    </div>
+  </main>
 
 </body>
+<footer>
+  <p>Created by <strong>TangentJay</strong> | &copy; 2025</p>
+</footer>
 </html>
