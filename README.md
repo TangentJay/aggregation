@@ -43,4 +43,4 @@ In early development – learning by doing.
 
 ---
 
-> “Start small. Build real. Learn everything.”
+> “Start small. Build real. Learn everything. WE DO IT LIVE”
